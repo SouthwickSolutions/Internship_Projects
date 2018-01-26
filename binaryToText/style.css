@@ -1,0 +1,38 @@
+*{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: #fff8dc;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#instructions{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sentences{
+    margin: 2px;
+}
+
+#buttonBox{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#startButton{
+    width: 75px;
+    height: 30px;
+}
+
+#exerciseBox{
+    display: none;
+}
