@@ -29,10 +29,47 @@ h1{
 }
 
 #startButton{
+    display: none;
     width: 75px;
     height: 30px;
 }
 
 #exerciseBox{
     display: none;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#binaryBox{
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#textBox{
+    display: none;
+    position: relative;
+    margin-left: 39%;
+}
+
+#checkAnswerButton{
+    display: none;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#textInput{
+    display: none;
+    width: 300px;
+}
+
+#nextButton{
+    display: none;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+body p{
+    padding: 50px;
+    text-align: center;
 }
