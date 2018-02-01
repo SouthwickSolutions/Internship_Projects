@@ -49,6 +49,7 @@ window.setTimeout(function(){
 //this is what happens when the START button is clicked
 startButton.onclick = function(){
     
+    //debugginh
     console.log("Start. Current line: ", currentLine);
     console.log("Start. Number of Lines in File: ", numberOfLinesInFile);
     
@@ -77,6 +78,7 @@ startButton.onclick = function(){
         
         currentLine++;
         
+        //debugging
         console.log("Start button hit. Current line: ", currentLine);
         console.log("Start button hit. Number of Lines in File: ", numberOfLinesInFile);
     }
@@ -100,6 +102,7 @@ checkAnswerButton.onclick = function(){
     
     currentLine++;
     
+    //debugging
     console.log("Check button hit. Current line: ", currentLine);
     console.log("Check button hit. Number of Lines in File: ", numberOfLinesInFile);
 }
@@ -111,6 +114,7 @@ checkAnswerButton.onclick = function(){
 //this is what happens when the NEXT button is clicked
 nextButton.onclick = function(){
     
+    //debugging
     console.log("Next button hit. Current line: ", currentLine);
     console.log("Next button hit. Number of Lines in File: ", numberOfLinesInFile);
     
@@ -131,6 +135,7 @@ nextButton.onclick = function(){
     
     currentLine++;
 
+    //debugging
     console.log("Finish. Current line: ", currentLine);
     console.log("Finish. Number of Lines in File: ", numberOfLinesInFile);
 }
